@@ -12,7 +12,7 @@ body{
 }
 
 img{
-    max-width: 100%;
+    width: auto;
     height: auto;    
 }
 
@@ -20,17 +20,26 @@ img{
     text-align: center;
 }
 
-.eng-title{
+.eng-title-y{
     font-size: 24px;
     text-align: center;
     color: yellow;
     font-weight: bold;
 }
 
+.eng-title-b{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .jpn-title{
     font-size: 18px;
     text-align: center;
+    margin: 30px 0 0 0;
 }
+
+
 
 /* Title */
 
@@ -60,18 +69,15 @@ img{
 }
 
 /* About */
+.about__section{
+    padding: 60px 0 0;
+}
+
 .about__wrapper{
     width: 1200px;
     margin: auto;
 }
 
-.about__title{
-    margin: 60px 0 0 0;
-}
-
-.about__subtitle{
-    margin: 30px 0 0;
-}
 
 .about__1{
     line-height: 2;
@@ -81,4 +87,86 @@ img{
 .about__2{
     line-height: 2;
     margin: 40px 0 0 0;
+}
+
+.about__3{
+    line-height: 2;
+    margin: 40px 0 80px 0;
+}
+
+/* Course */
+
+.course__section{
+    padding: 60px 0 0 0;
+}
+
+.course__wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.course__1{
+    line-height: 2;
+    margin: 30px 0 60px 0;
+    text-align: center;   
+}
+
+/* News */
+
+.news__section{
+    padding: 60px 0 60px 0;
+}
+
+.news__wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+/* Access */
+
+.access__section{
+    padding: 60px 0 60px 0;
+    background-color: #fafaff;
+    width: 1200px;
+    margin: auto;
+}
+
+.access__wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+/* Contact */
+
+.contact__section{
+    padding: 60px 0 140px 0;
+}
+
+.contact__wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.contact__1{
+    line-height: 2;
+    margin: 60px 0 0 0;
+}
+
+.contact__2{
+    line-height: 2;
+    margin: 30px 0 70px 0;
+}
+
+/* Footer */
+
+.footer__section{
+    background-color: #707077;
+    width: 1200px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+
+.footer__1{
+    color: white;
+    text-align: center;
 }
