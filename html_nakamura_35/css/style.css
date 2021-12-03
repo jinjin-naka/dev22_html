@@ -71,7 +71,7 @@ img{
     color: white;
     position: absolute;
     top: 200px;
-    left: 25%;
+    left: 33.33%;
 }
 
 .sub-title {
@@ -79,14 +79,19 @@ img{
     text-align: center;
     color: white;
     position: absolute;
-    top: 260px;
+    top: 278px;
     left: 33.33%;
 }
 
 .title-wrapper{
     width: 1200px;
     margin: auto;
-    position: relative;
+}
+
+.mainbg_format{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto 80px;
 }
 
 /* About */
@@ -118,6 +123,10 @@ img{
 .about__pics{
     display: flex;
     justify-content: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 /* Course */
@@ -136,6 +145,44 @@ img{
     margin: 30px 0 60px 0;
     text-align: center;   
 }
+
+.courseBox {
+    /* border: 10px solid red; */
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+  }
+  .courseBox.hanten {
+    flex-direction: row-reverse;
+  }
+  
+  .imgBlock {
+    width: 50%;
+  }
+  
+  .imgBlock img {
+    width: 100%;
+  }
+  
+  .textBox {
+    width: 50%;
+    padding: 90px 200px 0 50px;
+    box-sizing: border-box;
+  }
+  .textBox__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .courseBox.hanten .textBox {
+    padding: 90px 50px 0 200px;
+  }
+  
+  .textBox__text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
 /* News */
 
@@ -177,6 +224,17 @@ img{
     left: 33%;
 }
 
+.news__1:hover{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 300px;
+    text-align: center;
+    left: 33%;
+}
+
 .news__2{
     margin: 0 0 24px 0;
 }
@@ -202,6 +260,35 @@ img{
 .map__margin{
     margin: 60px 0 60px 0;
 }
+
+.access__table{
+    margin: auto;
+}
+
+.access__vertical{
+    padding: 0 0 30px 0;
+}
+
+.access__horizontal{
+    margin: 0 15px 0 0;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .infoBox__title {
+    width: 30%;
+  }
+  
+  .infoBox__text {
+    width: 70%;
+    line-height: 1.6;
+  }
 
 /* Contact */
 
@@ -234,6 +321,7 @@ img{
     flex-wrap: wrap;
     border-bottom: 1px solid;
     border-color: #bfbfbf;
+    margin: 0 0 30px 0;
 }
 
 .form__title{
@@ -246,10 +334,50 @@ img{
 }
 
 .form__item{
-    width: 384px;
+    width: 328px;
     border-top:1px solid;
     border-color: #bfbfbf;
-    padding: 8px 8px 8px 8px;
+    padding: 8px 64px 8px 8px;
+}
+
+.form__parts1{
+    padding: 8px;
+    box-sizing: border-box;
+    border: solid 1px #bfbfbf;
+    font-size: 16px;
+    width: 100%;
+}
+
+.input[type*="checkbox"]{
+    margin: 12px 0 12px 0;
+}
+
+.form__btn{
+    background-color: yellow;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 300px;
+    text-align: center;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    border-color: yellow;
+}
+
+.form__btn:hover{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 300px;
+    text-align: center;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    border-color: yellow;
 }
 
 /* Footer */
