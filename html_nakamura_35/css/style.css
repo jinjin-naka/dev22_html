@@ -23,7 +23,7 @@ img{
 .eng-title-y{
     font-size: 24px;
     text-align: center;
-    color: yellow;
+    color: #ffd61f;
     font-weight: bold;
 }
 
@@ -70,8 +70,9 @@ img{
     text-align: center;
     color: white;
     position: absolute;
-    top: 200px;
-    left: 33.33%;
+    top: 224px;
+    left: 28%;
+    margin: auto;
 }
 
 .sub-title {
@@ -79,19 +80,24 @@ img{
     text-align: center;
     color: white;
     position: absolute;
-    top: 278px;
-    left: 33.33%;
+    top: 302px;
+    left: 23%;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .title-wrapper{
     width: 1200px;
+    height: 400px;
     margin: auto;
 }
 
-.mainbg_format{
-    height: 500px;
-    width: 1200px;
-    margin: 0 auto 80px;
+.title-wrapper img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
 }
 
 /* About */
@@ -123,10 +129,13 @@ img{
 .about__pics{
     display: flex;
     justify-content: center;
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.about__pics img{
+    width: 25%;
 }
 
 /* Course */
@@ -214,7 +223,7 @@ img{
 }
 
 .news__1{
-    background-color: yellow;
+    background-color: #ffd61f;
     color: white;
     font-size: 18px;
     margin: auto;
@@ -330,7 +339,7 @@ img{
     border-right:1px solid;
     border-color: #bfbfbf;
     padding: 8px 64px 8px 16px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .form__item{
@@ -353,7 +362,7 @@ img{
 }
 
 .form__btn{
-    background-color: yellow;
+    background-color: #ffd61f;
     color: white;
     font-size: 18px;
     margin: auto;
@@ -363,7 +372,7 @@ img{
     left: 50%;
     display: flex;
     justify-content: center;
-    border-color: yellow;
+    border-color: #ffd61f;
 }
 
 .form__btn:hover{
@@ -377,7 +386,6 @@ img{
     left: 50%;
     display: flex;
     justify-content: center;
-    border-color: yellow;
 }
 
 /* Footer */
@@ -392,4 +400,9 @@ img{
 .footer__1{
     color: white;
     text-align: center;
+}
+
+.checkbox__vertical{
+    display: block;
+    margin: 0 0 24px 0;
 }
